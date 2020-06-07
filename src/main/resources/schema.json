@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Feedback entry",
+  "description": "A feedback entry",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": ["string", "null"],
+      "maxLength": 100
+    },
+    "email": {
+      "type": ["string", "null"],
+      "maxLength": 100
+    },
+    "contactType": {
+      "type": "string",
+      "enum": [
+        "GENERAL",
+        "MARKETING",
+        "SUPPORT"
+      ]
+    },
+    "message": {
+      "type": "string",
+      "maxLength": 1000
+    }
+  },
+  "required": ["contactType", "message"]
+}
