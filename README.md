@@ -36,8 +36,9 @@ This implementation uses h2 in-memory database for data persistence.
 
 ## Outstanding Issues
 1) HATEOAS should be used when building REST responses
-2) Pagination should be implemented in GET endpoints for multiple feedback entries
-3) Error responses should be more informative and contain detailed description of the error
-4) In real application proper SQL database should be used instead of h2 in-memory database
-5) Other Actuator endpoints should be enabled (/metrics, /env etc)
-6) Include generation of project reports in `pom.xml` (Cobertura, PMD etc.)
+2) Better error handling should be implemented
+3) Pagination should be implemented in GET endpoints for multiple feedback entries
+4) Error responses should be more informative and contain detailed description of the error
+5) In real application proper SQL database should be used instead of h2 in-memory database
+6) Other Actuator endpoints should be enabled (/metrics, /env etc)
+7) Include generation of project reports in `pom.xml` (Cobertura, PMD etc.)
