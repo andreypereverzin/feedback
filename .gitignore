@@ -23,3 +23,27 @@
 hs_err_pid*
 /target/
 /.idea/
+
+# compiled output
+/src/main/js/application/dist/
+/src/main/js/application/tmp/
+/src/main/js/application/out-tsc/
+# Only exists if Bazel was run
+/src/main/js/application/bazel-out/
+
+# dependencies
+/src/main/js/application/node_modules/
+
+# profiling files
+/src/main/js/application/chrome-profiler-events*.json
+/src/main/js/application/speed-measure-plugin*.json
+
+# misc
+/src/main/js/application/.sass-cache
+/src/main/js/application/connect.lock
+/src/main/js/application/coverage
+/src/main/js/application/libpeerconnection.log
+/src/main/js/application/npm-debug.log
+/src/main/js/application/yarn-error.log
+/src/main/js/application/testem.log
+/src/main/js/application/typings

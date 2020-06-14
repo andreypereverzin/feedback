@@ -13,6 +13,19 @@ To start the application run this command:
 
 `java -jar target/feedback.jar`
 
+
+To run UI application:
+
+go to `src/main/js/application`
+
+and run this command:
+
+`npm start`
+
+After that go to this URL in your browser:
+
+`http://localhost:4200/`
+
 ## Application Endpoints
 After the application is started its Swagger documentation is available on the URL:
 
